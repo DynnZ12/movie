@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+
+.utama {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+
+.Movie-container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.movie-wrapper{
+  width: 500px;
+  color: black;
+}
+
+.atas{
+  margin-bottom: 60px;
+}
+
+.testing{
+  height: 60px;
+}
