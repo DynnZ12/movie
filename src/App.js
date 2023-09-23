@@ -9,9 +9,9 @@ function App() {
   return (    
     <div className='utama'>
       <div className='atas'>
-        <Suspense fallback={<Loader />}>
+      
            <Laman />
-        </Suspense>
+       
       </div>
     
   
