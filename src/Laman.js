@@ -19,7 +19,7 @@ export default function Laman() {
     return popularMovies.map((movie, i) => {
       return (
         <div className='movie-wrapper' key={i}>
-            <div className="atasC card w-61 h-62 shadow-xl ms-5">
+            <div className="atasC card w-61 h-62 shadow-xl ms-5 text-white">
               <div className='images '>
                   <figure><img className='imageUtama ' src={`${imageUrl}/${movie.poster_path}`} alt="Harap Mengerti Api Gratisan" /></figure>
               </div>
