@@ -36,14 +36,13 @@
 }
 
 figure{ 
- 
-  height: 275px;
-  width: 200px;
+  height: 230px;
+  width: 170px;
 }
 
 .atasC > * {
   transform: translateY(25px);
-  transition: transform 0.6s;
+  transition: transform 0.5s;
 }
 
 .atasC:hover > * {
