@@ -21,16 +21,16 @@ export default function Laman() {
         <div className='movie-wrapper' key={i}>
             <div className="atasC card w-61 h-62 shadow-xl ms-5 text-white">
               <div className='images '>
-                  <figure><img className='imageUtama ' src={`${imageUrl}/${movie.poster_path}`} alt="Harap Mengerti Api Gratisan" /></figure>
+                  <figure><img className='imageUtama ' src={`${imageUrl}/${movie.poster_path}`} alt=" Harap Mengerti Api Gratisan" /></figure>
               </div>
            <div className="absolut card-body text-white place-content-end">
-          <h2 className="card-title testing  text-xs ">
+          <h2 className="card-title testing text-xs ">
             {movie.title}
           </h2>
       <div className="card-actions mt-2">
         <div className="release items-start text-xs ">{movie.release_date}</div> 
-        <div className="badge badge-outline badge-sm text-xs">
-          <div id='voteS'>
+        <div id="voteS" className="badge badge-outline badge-sm text-xs">
+          <div>
           {movie.vote_average}
           </div>
           <img className='ms-1' src={require('./favicon-16x16.png')} height='12' width='10'>
@@ -51,7 +51,6 @@ export default function Laman() {
       const query = await searchMovie(q)
       setPopularMovies(query.results)
       pop.style.display = "none";
-    
     }
    
   }
@@ -61,7 +60,8 @@ export default function Laman() {
     <div className="App-header">
     <div className="navbar bg-base-100">
 <div className="flex-1">
- <a href='{./}' className="btn btn-ghost normal-case text-xl">DynnZ</a>
+ <a href='./' className="btn btn-ghost normal-case text-xl">DynnZ</a>
+ {/* <a href="./Toprate.js" className='btn btn-ghost ms-5 text-sm'>Top Rated</a> */}
 </div>
 <div className="flex-none gap-5">   
    <div className="form-control">
