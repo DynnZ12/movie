@@ -19,7 +19,7 @@ export default function Laman() {
     return popularMovies.map((movie, i) => {
       return (
         <div className='movie-wrapper' key={i}>
-            <div className="atasC card w-61 h-62 shadow-xl ms-5 text-white">
+            <div className="atasC card w-61 h-62 shadow-xl  text-white">
               <div className='images '>
                   <figure><img className='imageUtama ' src={`${imageUrl}/${movie.poster_path}`} alt=" Harap Mengerti Api Gratisan" /></figure>
               </div>
@@ -47,7 +47,7 @@ export default function Laman() {
   const pop = document.getElementById('poop');
 
   const search = async (q) =>{
-    if( q.length > 3){
+    if( q.length > 3 ){
       const query = await searchMovie(q)
       setPopularMovies(query.results)
       pop.style.display = "none";
@@ -57,7 +57,7 @@ export default function Laman() {
  
   return (
    <>
-    <div className="App-header">
+     <div className="App-header">
     <div className="navbar bg-base-100">
 <div className="flex-1">
  <a href='./' className="btn btn-ghost normal-case text-xl">DynnZ</a>
