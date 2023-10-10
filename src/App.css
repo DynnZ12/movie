@@ -34,7 +34,10 @@
   height: 20px;
   
 }
-
+.imageUtama{
+  height: 100%;
+  width: 100%;
+}
 figure{ 
   height: 230px;
   width: 170px;
@@ -65,6 +68,9 @@ figure{
   opacity: 1;
 
 }
-
+.github:hover{
+  height: 28px;
+  transition: 0.7s;
+}
 
 
