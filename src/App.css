@@ -35,22 +35,27 @@
   
 }
 .imageUtama{
+  border-radius: 16px;
   height: 100%;
   width: 100%;
 }
 figure{ 
+
   height: 230px;
   width: 170px;
 }
 
 .atasC > * {
+
   transform: translateY(25px);
-  transition: transform 0.5s;
+  transition: transform 0.4s;
 }
 
 .atasC:hover > * {
+
   border: white solid 1px;
   transform: translateY(0px);
+  border-radius: 16px;
 }
 
 .absolut{
