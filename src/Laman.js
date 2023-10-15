@@ -25,7 +25,7 @@ export default function Laman() {
                   <figure><img className='imageUtama' src={`${imageUrl}/${movie.poster_path}`} alt=" Harap Mengerti Api Gratisan" /></figure>
               </div>
            <div className="absolut card-body text-white place-content-end">
-          <h2 className="card-title testing text-xs ">
+          <h2 className="card-title testing ">
             {movie.title}
           </h2>
       <div className="card-actions mt-2">

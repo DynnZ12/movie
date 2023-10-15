@@ -31,9 +31,10 @@
 }
 
 .testing{
-  height: 20px;
+  height: 10px;
     font-size: 10px;
     font-family:cursive;
+    line-height: 1rem;
 
 }
 .imageUtama{
