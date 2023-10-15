@@ -32,7 +32,9 @@
 
 .testing{
   height: 20px;
-  
+    font-size: 10px;
+    font-family:cursive;
+
 }
 .imageUtama{
   border-radius: 16px;
@@ -79,7 +81,3 @@ figure{
 }
 
 
-.testing{
-  font-size: 10px;
-  font-family:cursive;
-}
