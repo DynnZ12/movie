@@ -28,7 +28,7 @@ export default function Laman() {
           <h2 className="card-title testing ">
             {movie.title}
           </h2>
-      <div className="card-actions mt-2">
+      <div className="card-actions  mt-4">
         <div className="release items-start text-xs ">{movie.release_date}</div> 
         <div id="voteS" className="badge badge-outline badge-sm text-xs">
           {movie.vote_average}
